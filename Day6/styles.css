@@ -1,0 +1,49 @@
+.img_circle{
+    width: 300px;
+    height: 500px;
+}
+.img_div{
+    background-image: url('./Back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reset{
+    margin: 0px;
+}
+.text{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    border: 2px red solid;
+    width: 80px;
+}
+.item{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.item-in{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.fb{
+    color: rgb(77, 76, 76);
+}
+.ig{
+    filter: grayscale(100%);
+}
+.fb:hover{
+    color: blue;
+}
+.ig:hover{
+    filter: none;
+}

@@ -1,0 +1,65 @@
+.img_circle{
+    width: 300px;
+    height: 500px;
+}
+.img_div{
+    background-image: url('./Cables.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .reset{
+    margin: 0px;
+}
+.text{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    border: 2px red solid;
+    width: 80px;
+} */
+ /* .reset text{
+    font-family: "Lucida Console", Courier, monospace;
+  } */
+.item{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.item-in{
+    padding-right: 25px;
+    padding-left: 30px;
+    padding-top: 265px;
+}
+.fb{
+
+    color: rgb(77, 76, 76);
+}
+.fb:hover{ 
+    color: blue;
+}
+.ig{
+    filter: grayscale(100%);
+}
+.ig:hover{
+    filter: none;
+}
+.gh{
+    color: rgb(77, 76, 76);
+}
+.gh:hover{
+    color: rgb(23, 23, 39);
+}
+.gm{
+    color: rgb(77, 76, 76);
+}
+.gm:hover{
+    color: rgb(240, 15, 15);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Style the element with the id "myHeader" */ /* จัดองค์ประกอบองค์ประกอบด้วย id "myHeader" */
+#myHeader {
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style all elements with the class name "city" */ /* จัดองค์ประกอบทั้งหมดด้วยชื่อคลาส "city" */
+.city {
+  background-color: rgb(12, 64, 131);
+  color: white;
+  padding: 10px;
+} 
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+} 
+</style>
+</head>
+<body>
+
+<h2>Difference Between Class and ID</h2>
+<p>An HTML page can only have one unique id applied to one specific element, while a class name can be applied to multiple elements.</p>
+
+<!-- A unique element -->
+<h1 id="myHeader"> <img src="img_girl.jpg" alt="Girl in a jacket"> My Cities</h1>
+
+
+<!-- Multiple similar elements -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
