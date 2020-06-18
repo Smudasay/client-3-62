@@ -1,0 +1,13 @@
+
+.box{
+padding:10px; 
+border: 1px 
+solid #eeeeee; 
+background-color: #FAFFF5;}
+
+.log-in{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
