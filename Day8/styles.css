@@ -1,9 +1,18 @@
+@import 'https://fonts.googleapis.com/css2?family=Sriracha&display=swap';
+@import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
+body{
+    font-family: 'Sriracha', cursive;
+}
+h5{
+    font-family: 'Prompt', sans-serif;
+}
+
 .img_circle{
     width: 300px;
     height: 500px;
 }
-.img_div{
-    background-image: url('./Cables.png');
+#img_div{
+    background-image: url('./bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,30 +23,31 @@
     justify-content: center;
     align-items: center;
 }
-/* .reset{
+ .reset{
     margin: 0px;
 }
 .text{
     text-align: center;
+    font-size: 5rem;
+    font-weight: 500;
+    color: white;
+} 
+.text-me{
+    text-align: center;
     font-size: 2rem;
-    font-weight: 200;
-    border: 2px red solid;
-    width: 80px;
-} */
- /* .reset text{
-    font-family: "Lucida Console", Courier, monospace;
-  } */
-.item{
-    width: 200px;
+    font-weight: 100;
+    color: white;
+} 
+
+.content{
+    padding-top: 20px;
+    width: 50vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     
 }
-.item-in{
-    padding-right: 25px;
-    padding-left: 30px;
-    padding-top: 265px;
-}
+
 .fb{
 
     color: rgb(77, 76, 76);
@@ -49,7 +59,7 @@
     filter: grayscale(100%);
 }
 .ig:hover{
-    filter: none;
+    filter:  grayscale(0%);
 }
 .gh{
     color: rgb(77, 76, 76);
@@ -62,4 +72,10 @@
 }
 .gm:hover{
     color: rgb(240, 15, 15);
+}
+.select-in{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+
 }
