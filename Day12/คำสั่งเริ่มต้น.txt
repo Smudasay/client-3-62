@@ -1,0 +1,11 @@
+$ node
+> console.log('Hello Node.js');
+Hello Node.js
+undefined
+> function sayHi() { return "Hi!"; }
+undefined
+> sayHi();
+'Hi!'
+> 10 + 10
+20
+>
