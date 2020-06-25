@@ -1,5 +1,5 @@
 import Head from 'next/head'
-// import '../styles.css'
+// import styles from'./styles.module.css'
 export default function Home() {
   return (
     <>
