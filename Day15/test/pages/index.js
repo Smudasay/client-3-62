@@ -1,5 +1,5 @@
 import Head from 'next/head'
-// import styles from'./styles.module.css'
+import styles from'./styles.module.css'
 export default function Home() {
   return (
     <>
@@ -7,7 +7,7 @@ export default function Home() {
         <div>
           <title>Create Next App</title>
           <link rel="icon" href="/favicon.ico" />
-          {/* <link rel="stylesheet" href="./styles.css" /> */}
+          <link rel="stylesheet" href="./styles.css" />
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossOrigin="anonymous" />
         </div>
 
