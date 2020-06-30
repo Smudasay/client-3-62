@@ -12,7 +12,7 @@ h5 {
 }
 
 #img_div {
-    background-image: url('./bg.jpg');
+    background-image: url("pic/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
