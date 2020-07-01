@@ -7,7 +7,7 @@ export default function Home() {
         <div>
           <title>Create Next App</title>
           <link rel="icon" href="/favicon.ico" />
-          <link rel="stylesheet" href="./styles.css" />
+          
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossOrigin="anonymous" />
         </div>
 
@@ -16,6 +16,8 @@ export default function Home() {
       <main className="reset">
         <h1 className="reset text">MUDASAY</h1>
         <h5 className="reset text-me">Contact me</h5>
+
+        
         <div className="content">
           <a className="fb" href="https://www.facebook.com/profile.php?id=100004468123072" target="_blank">
             <i className=" fab fa-facebook-square fa-2x"> </i>
