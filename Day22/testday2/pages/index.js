@@ -52,6 +52,7 @@ export default () => {
         }
 
         main {
+
           background-image: url('./bg.jpg');
           background-size: cover;
           background-position: center;
@@ -64,7 +65,7 @@ export default () => {
           align-items: center;
         }
        
-        body {
+        body 
             font-family: 'Sriracha', cursive;
         }
         
@@ -80,7 +81,7 @@ export default () => {
    
         .reset text {
             text-align: center;
-            font-size: 10rem;
+            font-size: 5rem;
             font-weight: 500;
             color: white;
         }
@@ -101,7 +102,7 @@ export default () => {
         }
         
         .fb {
-            color: rgb(77, 76, 76);
+          color: rgb(77, 76, 10);
         }
         
         .fb:hover {
@@ -109,15 +110,15 @@ export default () => {
         }
         
         .ig {
-            filter: grayscale(100%);
+          color: rgb(77, 76, 10);
         }
         
         .ig:hover {
-            filter: grayscale(0%);
+          color: rgb(23, 23, 39);
         }
         
         .gh {
-            color: rgb(77, 76, 76);
+            color: rgb(77, 76, 10);
         }
         
         .gh:hover {
@@ -125,7 +126,7 @@ export default () => {
         }
         
         .gm {
-            color: rgb(77, 76, 76);
+            color: rgb(77, 76, 10);
         }
         
         .gm:hover {
