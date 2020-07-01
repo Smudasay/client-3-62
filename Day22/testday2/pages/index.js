@@ -40,8 +40,7 @@ export default () => {
       </main>
       
       <style jsx>{`
-       @import 'https://fonts.googleapis.com/css2?family=Sriracha&display=swap';
-       @import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
+
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -70,14 +69,21 @@ export default () => {
         }
         
         h5 {
-            font-family: 'Prompt', sans-serif;
+            font-size: 0.8rem;
+            font-family:papyrus;
+            color:#CCFFFF;
         }
         
         .img_circle {
             width: 300px;
             height: 500px;
         }
-        
+        h1{
+          font-size: 4rem;
+          font-family: Comic Sans MS;
+          color:#99FFFF;
+         
+        }
    
         .reset text {
             text-align: center;
