@@ -1,10 +1,22 @@
 .header{
+    position: relative;
     .logo{
         background-image: url('../images/logo.png');
         height: 180px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+    }
+    .right_logo{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px;
+        div{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
 }
 .navbar{

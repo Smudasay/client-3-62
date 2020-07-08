@@ -8,6 +8,17 @@ const Header = (props) => {
             <div className="header">
                 {/* <img src={img_logo}/> */}
                 <div className="logo"></div>
+                <div className="right_logo">
+                    <div>
+                        <p>asdasd</p>
+                    </div>
+                    <div>
+                        <p>asdasdfg</p>
+                    </div>
+                    <div>
+                        <p>asdasdfg</p>
+                    </div>
+                </div>
             </div>
             <div className="navbar">
                 <Link href="/">
@@ -19,7 +30,7 @@ const Header = (props) => {
                 <Link href="/contect">
                     <div className={props.title === "contect" ? "active menu" : "menu"}>Contect Page</div>
                 </Link>
-               
+
 
             </div>
         </div>
