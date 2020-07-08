@@ -1,0 +1,1 @@
+npm i --s @zeit/next-sass sass ติดตั้งโมดูล scss

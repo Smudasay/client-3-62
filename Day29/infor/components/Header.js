@@ -22,16 +22,25 @@ const Header = (props) => {
             </div>
             <div className="navbar">
                 <Link href="/">
-                    <div className={props.title === "home" ? "active menu" : "menu"}>Index Page</div>
+                    <div className={props.title === "home" ? "active menu" : "menu"}>Home</div>
                 </Link>
                 <Link href="/about">
-                    <div className={props.title === "about" ? "active menu" : "menu"} >About Page</div>
+                    <div className={props.title === "about" ? "active menu" : "menu"} >Product</div>
                 </Link>
                 <Link href="/contect">
-                    <div className={props.title === "contect" ? "active menu" : "menu"}>Contect Page</div>
+                    <div className={props.title === "contect" ? "active menu" : "menu"}>About</div>
                 </Link>
-
-
+            {/* ยังไม่ได้เพิ่ม   */}
+              <Link href="/contect">
+                    <div className={props.title === "contect" ? "active menu" : "menu"}>Contact</div>
+                </Link>
+                <Link href="/contect">
+                    <div className={props.title === "contect" ? "active menu" : "menu"}>Portfolio</div>
+                </Link>
+                <Link href="/contect">
+                    <div className={props.title === "contect" ? "active menu" : "menu"}>Shop</div>
+                </Link>
+            {/* ยังไม่ได้เพิ่ม   */}
             </div>
         </div>
     )
