@@ -1,5 +1,8 @@
 @import 'home';
-
+@import 'header';
+body{
+    margin: 0;
+}
 .page_home{
     .title{
         color: red;
@@ -14,15 +17,4 @@
     .title{
         color: green;
     }
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-        div{
-            background-color: honeydew;
-            padding: 20px;
-        }
-        
-
 }
