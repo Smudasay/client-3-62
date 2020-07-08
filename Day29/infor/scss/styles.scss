@@ -1,0 +1,28 @@
+@import 'home';
+
+.page_home{
+    .title{
+        color: red;
+    }
+}
+.page_about{
+    .title{
+        color: blue;
+    }
+}
+.page_contect{
+    .title{
+        color: green;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+        div{
+            background-color: honeydew;
+            padding: 20px;
+        }
+        
+
+}

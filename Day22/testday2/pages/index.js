@@ -39,7 +39,7 @@ export default () => {
         </select>
       </main>
       
-      <style jsx>{`
+      {/* <style jsx>{`
 
         .container {
           min-height: 100vh;
@@ -145,7 +145,7 @@ export default () => {
             bottom: 5px;
         }
         
-      `}</style>
+      `}</style> */}
 
       
     </div>
