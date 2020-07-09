@@ -2,6 +2,18 @@
     .title{
         color: red;
     }
-   
-    
+    .cctv1{
+        background-image: url('../images/cctv1.jpg');
+        height:300px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .cctv2{
+        background-image: url('../images/cctv2.jpg');
+        height:300px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
 }
