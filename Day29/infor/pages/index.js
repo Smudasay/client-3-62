@@ -8,10 +8,7 @@ export default function Home() {
       <h1 className="title">HELLO</h1>
     
 
-      <select className="select-in">
-        <option>TH</option>
-        <option>EN</option>
-      </select>
+      
     </div>
 
 
