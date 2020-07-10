@@ -4,7 +4,8 @@ const Contect = () => (
     <Header title="contect"/>
     <h1>Contect</h1>
     <h1 className="title">HELLO</h1>
-  </div>
+ </div>
+  
 )
 
 export default Contect
