@@ -49,6 +49,9 @@ const Header = (props) => {
                 <Link href="/contect">
                     <div className={props.title === "contect" ? "active menu" : "menu"}>Shop</div>
                 </Link>
+                <Link href="/contect">
+                    <div className={props.title === "contect" ? "active menu" : "menu"}>Shop</div>
+                </Link>
                 {/* ยังไม่ได้เพิ่ม   */}
             </div>
             <select className="select-in">
