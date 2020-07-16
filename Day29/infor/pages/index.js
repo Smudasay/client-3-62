@@ -6,11 +6,7 @@ export default function Home() {
       <h1 className="title">HELLO</h1>
       <h1 className="title">HELLO</h1>
       <h1 className="title">HELLO</h1>
-      <h1 className="title">HELLO</h1>
-      <h1 className="title">HELLO</h1>
-      <h1 className="title">HELLO</h1>
-      <h1 className="title">HELLO</h1>
-      <h1 className="title">HELLO</h1>
+    
       <h1 className="cctv1"></h1>
       <h1 className="cctv2"></h1>
 
