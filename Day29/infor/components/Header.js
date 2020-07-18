@@ -34,18 +34,18 @@ const Header = (props) => {
                     <div className={props.title === "home" ? "active menu" : "menu"}>Home</div>
                 </Link>
                 
-                <Link href="/contect">
-                    <div className={props.title === "contect" ? "active menu" : "menu"}>About</div>
+                <Link href="/about">
+                    <div className={props.title === "about" ? "active menu" : "menu"} >About</div>
                 </Link>
 
-                <Link href="/about">
-                    <div className={props.title === "about" ? "active menu" : "menu"} >Product</div>
-                </Link>
-                
-               
                 <Link href="/product">
-                    <div className={props.title === "product" ? "active menu" : "menu"}>Contact</div>
+                    <div className={props.title === "product" ? "active menu" : "menu"}>Product</div>
                 </Link>
+
+                <Link href="/contect">
+                    <div className={props.title === "contect" ? "active menu" : "menu"}>Contect</div>
+                </Link>
+
                 <Link href="/portfolio">
                     <div className={props.title === "portfolio" ? "active menu" : "menu"}>Portfolio</div>
                 </Link>
