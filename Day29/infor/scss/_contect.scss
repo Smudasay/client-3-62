@@ -1,10 +1,10 @@
 .page_contect{
     .title{
-        color: green;
+        color: blue;
+        display: flex;
+        justify-content: center;
     }
-    .detail{
-        color: red;
-    }
+
 }
 // .page_contect > .title{
 //     color: green;
