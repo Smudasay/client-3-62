@@ -4,5 +4,21 @@
         display: flex;
         justify-content: center;
     }
+    .portfolio1{
+        position: relative;
+        margin: 30px;
+
+        .back-content {
+            position: absolute;
+            z-index: 1;
+            left: 100px;
+            top: 40px;
+
+            p {
+                font-size: 15px;
+                font-weight: 900;
+            }
+        }
+    }
     
 }

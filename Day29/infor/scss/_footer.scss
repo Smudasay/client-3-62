@@ -1,5 +1,18 @@
 .page_footer{
-    h1{
-        color: yellow;
+    background-color: #CCCCCC;
+    .footer{
+        display: flex;
+        justify-content: center;
+        color: #3300FF;
+    }
+    .footer11{
+        display: flex;
+        justify-content: center;
+        color: #6600FF;
+    }
+    .footer12{
+        display: flex;
+        justify-content: center;
+        color: #6600FF;
     }
 }
