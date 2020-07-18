@@ -1,17 +1,20 @@
 .header{
-    position: relative;
+    display: flex;
     .logo{
-        background-image: url('../images/logo.png');
-        height: 180px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        margin-left: 13%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        img {
+
+            height: 180px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
     }
     .right_logo{
         display: flex;
-        position: absolute;
-        top: 0;
-        right: 0;
         margin: 20px;
         div{
             margin-left: 10px;
