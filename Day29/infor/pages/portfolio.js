@@ -22,14 +22,14 @@ const portfolio = () => (
       </div>
     </div>
     <div className="photo">
-      <img src="/images/workcctv13.jpg"
+      <img src="/images/workcctv9.jpg"
         style={{
           width: "23%",
           height: "400px",
           borderRadius: "20px"
         }}
       />
-      <img src="/images/workcctv13.jpg"
+      <img src="/images/workcctv5.jpg"
         style={{
           width: "23%",
           height: "400px",
