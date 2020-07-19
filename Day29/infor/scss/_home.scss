@@ -9,9 +9,12 @@
     }
     .home1{
         background-color:#99CCFF;
+        position: relative;
+        margin: 10px;
         .home11{
             display: flex;
-
+            justify-content: right;;
+      
         }
 
     }
