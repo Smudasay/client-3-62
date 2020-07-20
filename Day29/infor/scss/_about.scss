@@ -1,10 +1,39 @@
 .page_about{
+   
+     
+  .home1{
+
     .title{
-        color: blue;
+        color: black;
+
         display: flex;
         justify-content: center;
+        margin-top: 70px;  
+    }
+    .title1{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        top: 245px;
     }
 
+    }
+     
+    .home3{
+        display: flex;
+        margin-top: 90px;
+        justify-content: center;
+        background-color:#D1EEEE;
+        .home11{
+            .home31{
+                width: 200%;
+            }
+           .home32{
+                width: 100%;
+            
+            }
+        }
+    }
 
     
 }

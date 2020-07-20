@@ -8,7 +8,7 @@ export default function Home() {
 
       <div className="carousel" >
         <Carousel
-          style={{
+          style={{ 
             height: "452.5px",
             width: "800px"
           }}>
@@ -32,25 +32,49 @@ export default function Home() {
       <div className="home1">
 
         <div className="home11">
-          <div classNamea="home111">
-            <h1>ผลิต ออกแบบ ติดตั้งแผ่นฉนวนสำเร็จรูป</h1>
-            <p>ทางบริษัทยินดีอย่างยิ่งที่จะเข้าไปประเมินหน้างานให้แก่ลูกค้าหรือให้คำแนะนำ </p>
-            <p> หากลูกค้าสนใจสร้างห้องเย็นห้องควบคุมอุณหภูมิกั้นไลน์ผลิตห้องควบคุมความชื้น</p>
-            <p>เพราะเราคือ…โรงงานผลิตแผ่นฉนวนสำเร็จรูปกันความร้อน รับติดตั้ง </p>
-            <p>พร้อมบริการหลังการขาย ครบวงจร ด้วยผลงานและประสบการณ์กว่า</p>
-          </div>
-          <div classNamea="home112">
-            <img src="/images/workcctv13.jpg"
-              style={{
-                width: "30%",
-                height: "400px",
-                borderRadius: "20px"
-              }}
-            />
-          </div>
+          <h1>ผลิต ออกแบบ ติดตั้งแผ่นฉนวนสำเร็จรูป</h1>
+          <p>ทางบริษัทยินดีอย่างยิ่งที่จะเข้าไปประเมินหน้างานให้แก่ลูกค้าหรือให้คำแนะนำ </p>
+          <p> หากลูกค้าสนใจสร้างห้องเย็นห้องควบคุมอุณหภูมิกั้นไลน์ผลิตห้องควบคุมความชื้น</p>
+          <p>เพราะเราคือ…โรงงานผลิตแผ่นฉนวนสำเร็จรูปกันความร้อน รับติดตั้ง </p>
+          <p>พร้อมบริการหลังการขาย ครบวงจร ด้วยผลงานและประสบการณ์กว่า</p>
         </div>
+        <div classNamea="home12">
+          <img src="/images/workcctv13.jpg"
+            style={{
+              width: "30%",
+              height: "300px",
+              borderRadius: "20px"
+            }}
+          />
+        </div>
+      </div>
+      <div className="home2">
+        <img src="/images/cctv111.jpg"
+          style={{
+            width: "100%",
+            height: "200px",
+            opacity: 0.2,
+          }}
+        />
+      </div>
+      <div className="home3">
 
-
+        <div className="home31">
+          <h1>ผลิต ออกแบบ ติดตั้งแผ่นฉนวนสำเร็จรูป</h1>
+          <p>รองรับประมาณข้อมูลเข้าออกมหาศาลมาก </p>
+          <p>และมีระบบรักษาความปลอดภัย สภาพแวดล้อม</p>
+          <p>ที่เหมาะสมในการทำงานอาทิเช่นระบบสำรองไฟ ความเย็น </p>
+          
+        </div>
+        <div classNamea="home32">
+          <img src="/images/workcctv8.jpg"
+            style={{
+              width: "30%",
+              height: "300px",
+              borderRadius: "20px"
+            }}
+          />
+        </div>
       </div>
       <Footer />
     </div>
