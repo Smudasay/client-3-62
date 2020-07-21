@@ -11,7 +11,9 @@ const portfolio = () => (
       </div>
     </div>
     <div className="thanks">
-      THANKS favavavababababa
+    <p>ทางบริษัทต้องขอขอบคุณลูกค้าที่ไว้วางใจให้เราดูแลท่าน </p>
+    <p>และเลือกเราเป็นส่วนหนึ่งของความสำเร็จ </p>
+    <p>เราสัญญาว่าจะรักษามาตรฐานการให้บริการ และพัฒนาให้ดียิ่งยิ่งขึ้นไป</p>
     </div>
     <div className="photo">
       <img src="/images/workcctv9.jpg"
