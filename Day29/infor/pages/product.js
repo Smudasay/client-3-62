@@ -11,8 +11,8 @@ const product = () => (
           }}
 
         />
-        <p>asdasdasdasdasdas</p>
-        <button>btn</button>
+        
+        <button>รายอะเอียดสินค้า</button>
       </div>
       <div className="detail_photo">
 
@@ -22,7 +22,8 @@ const product = () => (
             borderRadius: "20px"
           }}
         />
-        <button>btn</button>
+        
+        <button>รายอะเอียดสินค้า</button>
       </div>
       <div className="detail_photo">
 
@@ -32,7 +33,8 @@ const product = () => (
             borderRadius: "20px"
           }}
         />
-        <button>btn</button>
+        
+        <button>รายอะเอียดสินค้า</button>
       </div>
       <div className="detail_photo">
         <img src="/images/workcctv9.jpg"
@@ -42,7 +44,8 @@ const product = () => (
           }}
 
         />
-        <button>btn</button>
+        
+        <button>รายอะเอียดสินค้า</button>
       </div>
       <div className="detail_photo">
 
@@ -52,7 +55,7 @@ const product = () => (
             borderRadius: "20px"
           }}
         />
-        <button>btn</button>
+        <button>รายอะเอียดสินค้า</button>
       </div>
       <div className="detail_photo">
 
@@ -62,7 +65,7 @@ const product = () => (
             borderRadius: "20px"
           }}
         />
-        <button>btn</button>
+        <button>รายอะเอียดสินค้า</button>
       </div>
     </div>
 
