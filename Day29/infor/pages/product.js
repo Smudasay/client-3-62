@@ -3,53 +3,69 @@ const product = () => (
   <div className="page_product">
     <Header title="product" />
     <div className="photo">
-      <img src="/images/workcctv9.jpg"
-        style={{
-          width: "23%",
-          height: "400px",
-          borderRadius: "20px"
-        }}
-        
-      />
-      <img src="/images/workcctv5.jpg"
-        style={{
-          width: "23%",
-          height: "400px",
-          borderRadius: "20px"
-        }}
-      />
-      <img src="/images/workcctv13.jpg"
-        style={{
-          width: "23%",
-          height: "400px",
-          borderRadius: "20px"
-        }}
-      />
+      <div className="detail_photo">
+        <img src="/images/workcctv9.jpg"
+          style={{
+            height: "400px",
+            borderRadius: "20px"
+          }}
+
+        />
+        <p>asdasdasdasdasdas</p>
+        <button>btn</button>
+      </div>
+      <div className="detail_photo">
+
+        <img src="/images/workcctv5.jpg"
+          style={{
+            height: "400px",
+            borderRadius: "20px"
+          }}
+        />
+        <button>btn</button>
+      </div>
+      <div className="detail_photo">
+
+        <img src="/images/workcctv13.jpg"
+          style={{
+            height: "400px",
+            borderRadius: "20px"
+          }}
+        />
+        <button>btn</button>
+      </div>
+      <div className="detail_photo">
+        <img src="/images/workcctv9.jpg"
+          style={{
+            height: "400px",
+            borderRadius: "20px"
+          }}
+
+        />
+        <button>btn</button>
+      </div>
+      <div className="detail_photo">
+
+        <img src="/images/workcctv5.jpg"
+          style={{
+            height: "400px",
+            borderRadius: "20px"
+          }}
+        />
+        <button>btn</button>
+      </div>
+      <div className="detail_photo">
+
+        <img src="/images/workcctv13.jpg"
+          style={{
+            height: "400px",
+            borderRadius: "20px"
+          }}
+        />
+        <button>btn</button>
+      </div>
     </div>
 
-    <div className="photo1">
-      <img src="/images/workcctv9.jpg"
-        style={{
-          width: "23%",
-          height: "400px",
-          borderRadius: "20px"
-        }}
-      />
-      <img src="/images/workcctv5.jpg"
-        style={{
-          width: "23%",
-          height: "400px",
-          borderRadius: "20px"
-        }}
-      />
-      <img src="/images/workcctv13.jpg"
-        style={{
-          width: "23%",
-          height: "400px",
-          borderRadius: "20px"
-        }}
-      />
-    </div>
   </div>
 
 )

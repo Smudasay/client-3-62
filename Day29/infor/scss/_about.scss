@@ -1,39 +1,46 @@
-.page_about{
-   
-     
-  .home1{
+.page_about {
+    .home1 {
+        position: relative;
+        .img_home1 {
+            background-image: url("../public/images/cctv111.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 70px 0px;
+            opacity: 0.2;
+        }
+        .title {
+            color: black;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            position: absolute;
+            top: 50px;
+            right: 45vw;
+        }
+        // .title1{
+        //     position: absolute;
+        //     z-index: 1;
+        //     width: 100%;
+        //     top: 245px;
+        // }
+    }
 
-    .title{
-        color: black;
-
+    .home3 {
         display: flex;
-        justify-content: center;
-        margin-top: 70px;  
-    }
-    .title1{
-        position: absolute;
-        z-index: 1;
-        width: 100%;
-        top: 245px;
-    }
+        justify-content: space-between;
+        background-color: #d1eeee;
+        padding: 50px;
 
-    }
-     
-    .home3{
-        display: flex;
-        margin-top: 90px;
-        justify-content: center;
-        background-color:#D1EEEE;
-        .home11{
-            .home31{
-                width: 200%;
-            }
-           .home32{
-                width: 100%;
-            
+        .home31 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .home32 {
+            img {
+                height: 300px;
+                border-radius: 20px;
             }
         }
     }
-
-    
 }
