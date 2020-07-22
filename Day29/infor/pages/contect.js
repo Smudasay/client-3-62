@@ -11,9 +11,9 @@ const Contect = () => {
   const upload = () => {
     db.collection("users")
       .add({
-        name:name,
-        username : username,
-        email: email
+        ชื่อ:name,
+        เบอร์ : username,
+        รายละเอียด: email
       }).then(() => {
         alert('บันทึกข้อมูลเรียบร้อย')
       })
@@ -36,18 +36,18 @@ const Contect = () => {
         <div className="content">
           <div className="form">
             <div className="form-group">
-              <label htmlFor="name">name</label>
-              <input type="text" name="name" placeholder="name" onChange={(e) => { setName(e.target.value) }}
+              <label htmlFor="name">ชื่อ-นามสกุล</label>
+              <input type="text" name="name" placeholder="ชื่อ-นามสกุล" onChange={(e) => { setName(e.target.value) }}
               />
             </div>
             <div className="form-group">
-              <label htmlFor="username">Username</label>
-              <input type="text" name="username" placeholder="username" onChange={(e) => { setUsername(e.target.value) }}
+              <label htmlFor="username">เบอร์โทร</label>
+              <input type="text" name="username" placeholder="เบอร์โทร" onChange={(e) => { setUsername(e.target.value) }}
               />
             </div>
             <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" placeholder="email" onChange={(e) => { setEmail(e.target.value) }}
+              <label htmlFor="email">รายละเอียด</label>
+              <input type="text" name="email" placeholder="รายละเอียด" onChange={(e) => { setEmail(e.target.value) }}
               />
             </div>
           </div>
